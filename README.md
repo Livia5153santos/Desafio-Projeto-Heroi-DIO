@@ -9,7 +9,7 @@
 
 ## Objetivo
 
-Criando uma variável para armazenar o nome e a quantidade de experiência (XP) de herói, depois utulizando uma estrutura de decisão para apresentar algumas das mensagens abaixo:
+Criar uma variável para armazenar o nome e a quantidade de experiência (XP) de herói, depois utilizando uma estrutura de decisão para apresentar algumas das mensagens abaixo:
 
 Se XP for menor do que 1.000 = Ferro
 Se XP for entre 1.001 e 2.000 = Bronze
