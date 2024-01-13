@@ -1,8 +1,8 @@
 let heroi = ["Sonic", "Tails", "Knuckles", "Amy", "Rouge", "Shadow", "Big", "Cream"];
-let quantidadeXP = [950, 1375, 2683, 3291, 5838, 6712, 7961, 8413, 9071, 10203];
+let quantidadeXP = [950, 1375, 2683, 3291, 4838, 5712, 6961, 7413];
 const nivel = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"];
 
-for (let contador = 0; contador < 10; contador++) {
+for (let contador = 0; contador < 8; contador++) {
     let xp = quantidadeXP[contador];
     let nomeHeroi = heroi[contador];
     let nivelHeroi;
@@ -29,7 +29,7 @@ for (let contador = 0; contador < 10; contador++) {
         case xp > 6001 && xp < 7000:
             nivelHeroi = nivel[6];
             break;
-        case xp > 7001 && xp < 8000:
+        case xp > 7001:
             nivelHeroi = nivel[7];
             break;
         default:
