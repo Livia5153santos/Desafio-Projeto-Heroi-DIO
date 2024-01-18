@@ -1,7 +1,10 @@
+// Declarando variáveis
+
 let heroi = ["Sonic", "Tails", "Knuckles", "Amy", "Rouge", "Shadow", "Big", "Cream"];
 let quantidadeXP = [950, 1375, 2683, 3291, 4838, 5712, 6961, 7413];
 const nivel = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"];
 
+// Switch case para determinar o nível e Laço de Repetição
 for (let contador = 0; contador < 8; contador++) {
     let xp = quantidadeXP[contador];
     let nomeHeroi = heroi[contador];
@@ -35,6 +38,6 @@ for (let contador = 0; contador < 8; contador++) {
         default:
             nivelHeroi = "Nível não definido";
     }
-
+// Saida
     console.log("O Heroi de nome " + nomeHeroi + " está no nível de " + nivelHeroi);
 }
